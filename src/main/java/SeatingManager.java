@@ -47,12 +47,6 @@ public class SeatingManager {
 
         this.pqTable.addAll(tables);
 
-        this.pqTable.forEach(new Consumer<Table>() {
-            public void accept(Table table) {
-                System.out.println(table.size);
-            }
-        });
-
     }
 
     /* Group arrives and wants to be seated. */
